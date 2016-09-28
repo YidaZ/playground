@@ -38,8 +38,8 @@ MongoClient.connect(url, function (err, db) {
       } else if (result.length) {
         console.log('Found:', result);
         //console.log(result["temperature"]);
-        var parsedData = JSON.parse(result);
-        console.log(parsedData.temperature);
+//         var parsedData = JSON.parse(result);
+//         console.log(parsedData.temperature);
 
       } else {
         console.log('No document(s) found with defined "find" criteria!');
